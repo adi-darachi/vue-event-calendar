@@ -782,7 +782,7 @@ var inBrowser = typeof window !== 'undefined';
     },
     events: function events() {
       this.selectedDayEvents = {
-        date: 'all',
+        // date: 'all',
         events: this.events || []
       };
     }
